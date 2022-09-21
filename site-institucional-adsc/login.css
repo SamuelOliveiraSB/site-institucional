@@ -1,0 +1,50 @@
+
+.login{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.campo{
+    height:80px ;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.campo label{
+    color: #e6005a;
+    font-size: 20px;
+}
+
+.campo input{
+    height: 20px;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 2px  rgba(0, 255, 255, 0.39);
+    outline-color: aqua;
+    color: black;
+}
+
+
+button{
+    background-color: #e6005a;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    opacity: 0.8;
+}

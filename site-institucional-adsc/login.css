@@ -10,8 +10,13 @@
     align-items: center;
 }
 
+.login h1{
+    color: #e6005a;
+
+}
+
 .campo{
-    height:80px ;
+    height:60px ;
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -25,7 +30,7 @@
 }
 
 .campo input{
-    height: 20px;
+    height: 16px;
     width: 180px;
     border-radius: 10px;
     padding: 10px;

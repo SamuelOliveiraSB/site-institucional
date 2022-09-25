@@ -27,13 +27,25 @@ h1 {
 
 ul {
     display: flex;
-    width: 350px;
+    width: 450px;
     justify-content: space-between;
     list-style: none;
 }
 
 li {
     color: #e3b062;
+    background-color: rgba(15, 15, 15, 0.418);
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.none{
+    background-color: rgb(0, 0, 0);
+
 }
 
 li a {
@@ -41,6 +53,8 @@ li a {
     color: #e3b062;
     cursor: pointer;
 }
+
+
 
 
 .banner{
